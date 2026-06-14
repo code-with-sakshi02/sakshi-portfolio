@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ffe6f2 0%, #ffb3d9 100%);
+    text-align: center;
+    padding: 20px;
+    transition: all 0.3s ease;
+    min-height: 100vh;
+}
+
+body.dark-mode {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    color: white;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #c71585;
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+body.dark-mode h1 {
+    color: #ff69b4;
+}
+
+.tagline {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+body.dark-mode.tagline {
+    color: #ccc;
+}
+
+.clock-box {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+body.dark-mode.clock-box {
+    background: #0f3460;
+}
+
+#clock {
+    font-size: 28px;
+    font-weight: bold;
+    color: #c71585;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+body.dark-mode.card {
+    background: #0f3460;
+}
+
+h2 {
+    color: #c71585;
+    margin-bottom: 15px;
+}
+
+body.dark-mode h2 {
+    color: #ff69b4;
+}
+
+button {
+    background: #c71585;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 5px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #a0136a;
+    transform: scale(1.05);
+}
+
+#darkModeBtn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+}
+
+input {
+    padding: 10px;
+    border: 2px solid #c71585;
+    border-radius: 20px;
+    font-size: 16px;
+    margin: 5px;
+    width: 60%;
+}
+
+body.dark-mode input {
+    background: #1a1a2e;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+    max-width: 300px;
+    margin: 15px auto;
+}
+
+li {
+    padding: 8px;
+    margin: 5px 0;
+    background: #ffe6f2;
+    border-radius: 5px;
+}
+
+body.dark-mode li {
+    background: #1a1a2e;
+}
+
+#greeting {
+    font-size: 20px;
+    color: #c71585;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.footer {
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
